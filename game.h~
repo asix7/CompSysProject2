@@ -1,9 +1,0 @@
-
-
-int run_game(char *code);
-char* generate_code(char* letters, char* choosen);
-void next_guess(char* letters, char* choosen);
-int is_valid(char letter, char* letters);
-int incorrect_position(char* input, char* compare);
-int feedback(int num_guesses, int b, int m);
-char* game_instructions();
